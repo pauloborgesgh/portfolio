@@ -1,11 +1,11 @@
 import './App.css'
+// eslint-disable-next-line no-unused-vars
+import AppRoutes from './Routers/routes'
 
 function App() {
 
   return (
-    <>
-      <h1>Olá Mundo!</h1>
-    </>
+    <AppRoutes />
   )
 }
 
